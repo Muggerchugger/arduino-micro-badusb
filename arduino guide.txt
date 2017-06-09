@@ -1,0 +1,18 @@
+connect wire from GND to 7
+
+Then put the following under void setup
+
+pinMode(7, INPUT);
+      
+      
+        digitalWrite(7, 1);
+bool buttonState = digitalRead(7);
+      
+      
+        if(buttonState == LOW) {
+      
+      
+                 delay(100000000000000000000);
+      
+      
+        }
